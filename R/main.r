@@ -66,7 +66,7 @@ population_dots <- dots::dots_points(
 
 p <- ggplot() +
 geom_sf(
-    country_admin1_population,
+    data = country_admin1_population,
     fill = "#153041",
     color = "#204863",
     linewidth = .5
